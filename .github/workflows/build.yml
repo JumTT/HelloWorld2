@@ -19,7 +19,7 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-          cp -rp sh/* /src
+      - run: cp -rp sh/* /src
       - name: Cache toolchains (Linux, OpenWrt, Android)
         uses: actions/cache@v4
         with:
@@ -56,7 +56,7 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-          cp -rp sh/* /src
+      - run: cp -rp sh/* /src
       - name: Cache toolchains
         uses: actions/cache@v4
         with:
@@ -90,7 +90,7 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-          cp -rp sh/* /src
+      - run: cp -rp sh/* /src
       - uses: actions/cache@v4
         with:
           path: |
@@ -115,7 +115,7 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-          cp -rp sh/* /src
+      - run: cp -rp sh/* /src
       - name: Cache toolchains (Linux, OpenWrt, Android)
         uses: actions/cache@v4
         with:
@@ -188,7 +188,7 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-          cp -rp sh/* /src
+      - run: cp -rp sh/* /src
       - name: Cache toolchains (Linux, OpenWrt, Android)
         uses: actions/cache@v4
         with:
@@ -263,7 +263,7 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-          cp -rp sh/* /src
+      - run: cp -rp sh/* /src
       - name: Cache toolchains
         uses: actions/cache@v4
         with:
@@ -327,7 +327,7 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-          cp -rp sh/* /src
+      - run: cp -rp sh/* /src
       - name: Cache toolchains and PGO
         uses: actions/cache@v4
         with:
@@ -380,7 +380,7 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-          cp -rp sh/* /src
+      - run: cp -rp sh/* /src
       - name: Cache toolchains and PGO
         uses: actions/cache@v4
         with:
