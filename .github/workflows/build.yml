@@ -4,7 +4,6 @@ on:
     types: [published]
 defaults:
   run:
-    shell: bash
     working-directory: src
 env:
   CACHE_EPOCH: 1
