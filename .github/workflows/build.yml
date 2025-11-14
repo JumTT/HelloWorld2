@@ -19,7 +19,10 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-      - run: pwd & mv src/* src/.[!.]* . & ls -la & chmod +x *.sh
+      - run: pwd
+      - run: mv src/* src/.[!.]* .
+      - run: ls -la
+      - run: chmod +x *.sh
       - name: Cache toolchains (Linux, OpenWrt, Android)
         uses: actions/cache@v4
         with:
@@ -56,7 +59,10 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-      - run: pwd & mv src/* src/.[!.]* . & ls -la & chmod +x *.sh
+      - run: pwd
+      - run: mv src/* src/.[!.]* .
+      - run: ls -la
+      - run: chmod +x *.sh
       - name: Cache toolchains
         uses: actions/cache@v4
         with:
@@ -90,7 +96,10 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-      - run: pwd & mv src/* src/.[!.]* . & ls -la & chmod +x *.sh
+      - run: pwd
+      - run: mv src/* src/.[!.]* .
+      - run: ls -la
+      - run: chmod +x *.sh
       - uses: actions/cache@v4
         with:
           path: |
@@ -115,7 +124,10 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-      - run: pwd & mv src/* src/.[!.]* . & ls -la & chmod +x *.sh
+      - run: pwd
+      - run: mv src/* src/.[!.]* .
+      - run: ls -la
+      - run: chmod +x *.sh
       - name: Cache toolchains (Linux, OpenWrt, Android)
         uses: actions/cache@v4
         with:
@@ -188,7 +200,10 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-      - run: pwd & mv src/* src/.[!.]* . & ls -la & chmod +x *.sh
+      - run: pwd
+      - run: mv src/* src/.[!.]* .
+      - run: ls -la
+      - run: chmod +x *.sh
       - name: Cache toolchains (Linux, OpenWrt, Android)
         uses: actions/cache@v4
         with:
@@ -263,7 +278,10 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-      - run: pwd & mv src/* src/.[!.]* . & ls -la & chmod +x *.sh
+      - run: pwd
+      - run: mv src/* src/.[!.]* .
+      - run: ls -la
+      - run: chmod +x *.sh
       - name: Cache toolchains
         uses: actions/cache@v4
         with:
@@ -327,7 +345,10 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-      - run: pwd & mv src/* src/.[!.]* . & ls -la & chmod +x *.sh
+      - run: pwd
+      - run: mv src/* src/.[!.]* .
+      - run: ls -la
+      - run: chmod +x *.sh
       - name: Cache toolchains and PGO
         uses: actions/cache@v4
         with:
@@ -380,7 +401,10 @@ jobs:
       - name: 下载 Chromium 源
         run: |
           git clone --depth 1 -b 142.0.7444.135 https://chromium.googlesource.com/chromium/src.git -j 16
-      - run: pwd & mv src/* src/.[!.]* . & ls -la & chmod +x *.sh
+      - run: pwd
+      - run: mv src/* src/.[!.]* .
+      - run: ls -la
+      - run: chmod +x *.sh
       - name: Cache toolchains and PGO
         uses: actions/cache@v4
         with:
